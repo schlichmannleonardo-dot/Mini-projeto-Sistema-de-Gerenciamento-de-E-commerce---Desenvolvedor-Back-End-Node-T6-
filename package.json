@@ -1,0 +1,15 @@
+{
+  "name": "miniprojeto-ecommerce-leonardo-schlichmann-turma",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini-projeto avaliativo de gerenciamento de e-commerce com TypeScript e Node.js.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "test": "npm run build && node --test tests/*.test.cjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
